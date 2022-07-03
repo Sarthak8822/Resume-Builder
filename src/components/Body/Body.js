@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
-// import ReactToPrint from "react-to-print";
-// import { ArrowDown } from "react-feather";
+import ReactToPrint from "react-to-print";
+import { ArrowDown } from "react-feather";
 
 import Editor from "../Editor/Editor";
-// import Resume from "../Resume/Resume";
+import Resume from "../Resume/Resume";
 
 import styles from "./Body.module.css";
 
@@ -75,7 +75,7 @@ function Body() {
             />
           ))}
         </div>
-        {/* <ReactToPrint
+        <ReactToPrint
           trigger={() => {
             return (
               <button>
@@ -84,7 +84,7 @@ function Body() {
             );
           }}
           content={() => resumeRef.current}
-        /> */}
+        />
       </div>
       <div className={styles.main}>
         <Editor
@@ -92,12 +92,12 @@ function Body() {
           information={resumeInformation}
           setInformation={setResumeInformation}
         />
-        {/* <Resume
+        <Resume
           ref={resumeRef}
           sections={sections}
           information={resumeInformation}
           activeColor={activeColor}
-        /> */}
+        />
       </div>
     </div>
   );

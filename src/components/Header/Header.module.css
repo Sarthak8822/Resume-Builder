@@ -1,4 +1,4 @@
-.container{
+.container {
     padding: 50px 30px;
     text-align: center;
     width: 100%;
@@ -7,10 +7,10 @@
     justify-content: space-evenly;
     gap: 30px;
     background-color: rgb(238, 252, 255);
-    min-height: 70vh;
-}
-
-.heading{
+    min-height: 85vh;
+  }
+  
+  .heading {
     margin: 0 auto;
     max-width: 500px;
     color: #000;
@@ -18,13 +18,14 @@
     line-height: 4.1rem;
     font-weight: bold;
     letter-spacing: 1px;
-}
-
-.heading span{
+  }
+  
+  .heading span {
     background-clip: text;
     background-image: linear-gradient(to right, #239ce2, #1369b9);
     color: transparent;
-}
-.right img{
-    width: 600px;
-}
+  }
+  
+  .right img {
+    width: 400px;
+  }
